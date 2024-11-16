@@ -1,0 +1,252 @@
+.nav-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 32px 0px #07070714;
+  position: fixed; /* Fixes the navbar to the top */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #ffffff;
+}
+
+.nav-content {
+  background-color: #ffffff;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  /* border: 1px solid purple; */
+}
+
+@media screen and (min-width: 576px) {
+  .nav-content {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-content {
+    width: 86%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-content {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-content {
+    width: 75%;
+  }
+}
+
+.nav-website-logo-and-title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.website-logo {
+  width: 50px;
+}
+
+.website-title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.website-menu {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .website-menu {
+    display: none;
+  }
+}
+
+.nav-website-desktop-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-website-desktop-container {
+    display: none;
+  }
+}
+
+.nav-input-and-search-container {
+  display: flex;
+  align-items: center;
+  width: 214px;
+  height: 28px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+}
+
+.search-input {
+  font-family: 'Roboto';
+  font-size: 14px;
+  background: #fafafa;
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+
+.nav-header-search-button {
+  background: #dbdbdb;
+  border: none;
+  width: 40px;
+  height: 28px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-icon {
+  font-size: 100px;
+  color: #989898;
+  padding: 8px;
+}
+
+.nav-item {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #262626;
+  font-weight: 500;
+  padding-left: 24px;
+  cursor: pointer;
+}
+
+.logout-button {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  background: #4094ef;
+  padding: 8px 24px;
+  margin-left: 24px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* isMenubar open */
+.menubar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 92%;
+  /* border: 1px solid blue; */
+  padding: 0;
+  /* z-index: 1000; */
+}
+
+@media screen and (min-width: 992px) {
+  .menubar-container {
+    display: none;
+  }
+}
+
+.menu-item {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.close-icon {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.menu-search-text-btn {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Search bar open */
+.search-bar-container {
+  margin: 10px 0px 10px 0px;
+  width: 90%;
+}
+
+@media screen and (min-width: 992px) {
+  .search-bar-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .search-bar-container {
+    width: 85%;
+  }
+}
+
+.search-bar-input-and-search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 34px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  margin: auto;
+}
+
+.search-bar-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  background: #fafafa;
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+
+.search-bar-button {
+  background: #dbdbdb;
+  border: none;
+  width: 40px;
+  height: 34px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-bar-icon {
+  font-size: 100px;
+  color: #989898;
+  padding: 8px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #262626;
+}
+
+.active-menu {
+  color: #256ebc;
+}

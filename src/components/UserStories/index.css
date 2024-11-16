@@ -1,0 +1,138 @@
+.user-stories-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  /* border: 1px solid blue; */
+}
+
+.slick-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-top: 20px;
+  /* border: 1px solid red; */
+}
+
+@media screen and (min-width: 576px) {
+  .slick-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .slick-container {
+    width: 78%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .slick-container {
+    width: 74%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .slick-container {
+    width: 70%;
+  }
+}
+
+.slick-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* border: 1px solid green; */
+  padding: auto;
+  margin: auto;
+  height: auto;
+}
+
+.user-story-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.user-story-name {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+/* Failure View Container */
+
+.us-failure-view-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.us-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.us-failure-view-img {
+  width: 22px;
+  height: 19px;
+}
+
+@media screen and (min-width: 992px) {
+  .us-failure-view-img {
+    width: 34px;
+    height: 28px;
+  }
+}
+
+.us-failure-view-description {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #262626;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.us-try-again-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: #4094ef;
+  color: #ffffff;
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  line-height: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .us-try-again-button {
+    font-size: 14px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 12px;
+    line-height: 24px;
+  }
+}
+
+/* Slider both end buttons */
+.slick-prev:before,
+.slick-next:before {
+  color: #334155;
+}

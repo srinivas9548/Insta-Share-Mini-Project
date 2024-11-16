@@ -1,0 +1,119 @@
+.login-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 90%;
+  max-width: 1110px;
+  margin: auto;
+}
+
+.website-login-desktop-img {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .website-login-desktop-img {
+    display: block;
+    width: 480px;
+    height: 320px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .website-login-desktop-img {
+    width: 582px;
+    height: 373px;
+  }
+}
+
+.login-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .login-page-content {
+    box-shadow: 0px 8px 40px 0px #07070714;
+    border-radius: 8px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .login-page-content {
+    padding: 35px;
+  }
+}
+
+.website-logo-and-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.website-logo {
+  width: 80px;
+}
+
+.website-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.label-and-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.label-element {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2.4;
+}
+
+.input-element {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  background: #eeeeee;
+  width: 312px;
+  height: 40px;
+  padding-left: 12px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+
+.error-message {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ef4444;
+  font-weight: 500;
+}
+
+.login-button {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #4094ef;
+  height: 40px;
+  width: 100%;
+  margin-top: 24px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

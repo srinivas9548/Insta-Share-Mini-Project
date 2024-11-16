@@ -1,0 +1,104 @@
+.my-profile-main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.my-profile-list-container {
+  width: 90%;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+@media screen and (min-width: 576px) {
+  .my-profile-list-container {
+    width: 86%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .my-profile-list-container {
+    width: 84%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .my-profile-list-container {
+    width: 78%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .my-profile-list-container {
+    width: 74%;
+  }
+}
+
+.my-profile-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* Failure View Container */
+
+.my-profile-failure-view-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.my-profile-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid purple; */
+}
+
+.failure-view-img {
+  width: 22px;
+  height: 19px;
+}
+
+@media screen and (min-width: 992px) {
+  .failure-view-img {
+    width: 44px;
+    height: 38px;
+  }
+}
+
+.failure-view-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #262626;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.try-again-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: #4094ef;
+  color: #ffffff;
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  line-height: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .try-again-button {
+    font-size: 14px;
+    padding: 12px 32px 12px 32px;
+    border-radius: 12px;
+    line-height: 24px;
+  }
+}

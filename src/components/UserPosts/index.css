@@ -1,0 +1,144 @@
+.user-post-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.user-post-responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #dbdbdb; */
+  width: 100%;
+}
+
+.user-posts-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  border-top: 1px solid #dbdbdb;
+}
+
+@media screen and (min-width: 576px) {
+  .user-posts-list-container {
+    border-top: none;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .user-posts-list-container {
+    width: 86%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .user-posts-list-container {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .user-posts-list-container {
+    width: 75%;
+  }
+}
+
+.post-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+/* Failure View Container */
+
+.failure-view-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #dbdbdb;
+  width: 100%;
+  height: 70vh;
+}
+
+@media screen and (min-width: 576px) {
+  .failure-view-container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-container {
+    width: 86%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .failure-view-container {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .failure-view-container {
+    width: 75%;
+  }
+}
+
+.failure-view-img {
+  width: 22px;
+  height: 19px;
+}
+
+@media screen and (min-width: 992px) {
+  .failure-view-img {
+    width: 44px;
+    height: 38px;
+  }
+}
+
+.failure-view-description {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #262626;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.try-again-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: #4094ef;
+  color: #ffffff;
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  line-height: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .try-again-button {
+    font-size: 14px;
+    padding: 12px 32px 12px 32px;
+    border-radius: 12px;
+    line-height: 24px;
+  }
+}

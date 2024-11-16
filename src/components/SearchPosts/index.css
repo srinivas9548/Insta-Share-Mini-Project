@@ -1,0 +1,226 @@
+.search-post-initial-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-post-initial-img {
+  width: 50px;
+}
+
+.search-post-initial-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  color: #989898;
+  line-height: 32px;
+  letter-spacing: -0.009px;
+  text-align: center;
+}
+
+/* search posts search results container */
+
+.search-posts-results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 115px;
+  margin-bottom: 30px;
+}
+
+.search-posts-results-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-left: 30px;
+  align-self: flex-start;
+  margin-left: 8%;
+}
+
+@media screen and (max-width: 767px) {
+  .search-posts-results-heading {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .search-posts-results-heading {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .search-posts-results-heading {
+    margin-left: 12.5%;
+  }
+}
+
+.search-posts-results-main-list-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .search-posts-results-main-list-container {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px #7b879429;
+    padding-top: 10px;
+    border-radius: 16px;
+    width: 86%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .search-posts-results-main-list-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .search-posts-results-main-list-container {
+    width: 75%;
+  }
+}
+
+.search-posts-results-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+@media screen and (min-width: 576px) {
+  .search-posts-results-list-container {
+    border-top: none;
+    width: 95%;
+  }
+}
+
+/* search posts not found container */
+
+.search-posts-not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-not-found-img {
+  width: 258px;
+  height: 210px;
+}
+
+@media screen and (min-width: 992px) {
+  .search-not-found-img {
+    width: 330px;
+    height: 280px;
+  }
+}
+
+.search-posts-not-found-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #262626;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .search-posts-not-found-heading {
+    font-size: 32px;
+  }
+}
+
+.search-posts-not-found-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #989898;
+  text-align: center;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .search-posts-not-found-description {
+    font-size: 20px;
+  }
+}
+
+/* Loader */
+
+.search-posts-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Failure View Container */
+
+.search-posts-failure-view-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-posts-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid purple; */
+}
+
+.search-posts-failure-view-img {
+  width: 260px;
+  height: 180px;
+}
+
+@media screen and (min-width: 992px) {
+  .search-posts-failure-view-img {
+    width: 300px;
+    height: 180px;
+  }
+}
+
+.failure-view-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #262626;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.try-again-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: #4094ef;
+  color: #ffffff;
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  line-height: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .try-again-button {
+    font-size: 14px;
+    padding: 12px 32px 12px 32px;
+    border-radius: 12px;
+    line-height: 24px;
+  }
+}
